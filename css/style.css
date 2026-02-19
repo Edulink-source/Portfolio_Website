@@ -541,18 +541,23 @@ a {
 /* MOBILE RESPONSIVE DESIGN */
 /* ============================= */
 
-/* ============================= */
-/* MOBILE RESPONSIVE DESIGN */
-/* ============================= */
-
 @media (max-width: 991px) {
 
     .navbar {
         padding: 20px 5%;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .navbar ul {
-        display: none; /* hides menu on small screens */
+        display: flex;          /* show it again */
+        flex-direction: column; /* stack vertically */
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
     }
 
     .home {
@@ -579,10 +584,6 @@ a {
         gap: 15px;
     }
 
-    .home-info .btn-sci .sci {
-        margin: 10px 0 0;
-    }
-
     .home-img .img-box {
         width: 200px;
         height: 200px;
@@ -597,7 +598,9 @@ a {
 }
 
 
+
   
+
 
 
 
