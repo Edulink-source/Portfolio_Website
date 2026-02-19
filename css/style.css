@@ -546,60 +546,35 @@ a {
     .navbar {
         padding: 20px 5%;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .navbar ul {
-        display: flex;          /* show it again */
-        flex-direction: column; /* stack vertically */
+        display: flex;
+        flex-direction: row;        /* horizontal */
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
         width: 100%;
         margin-top: 15px;
+        flex-wrap: nowrap;
+        overflow-x: auto;           /* scroll if needed */
     }
 
     .navbar ul li {
-        margin: 10px 0;
+        margin: 0;
     }
 
-    .home {
-        flex-direction: column-reverse;
-        text-align: center;
-        height: auto;
-        padding: 120px 5% 50px;
-    }
-
-    .home-info h1 {
-        font-size: 32px;
-    }
-
-    .home-info h3 {
-        font-size: 18px;
-    }
-
-    .home-info p {
+    .navbar ul li a {
         font-size: 14px;
-    }
-
-    .home-info .btn-sci {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .home-img .img-box {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 30px;
-    }
-
-    .home-img .img-box::before,
-    .home-img .img-box::after {
-        width: 300px;
-        height: 300px;
+        white-space: nowrap;
     }
 }
 
 
 
   
+
 
 
 
