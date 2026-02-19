@@ -537,32 +537,24 @@ a {
     margin-bottom: 20px;
 }
 
-/* ============================= */
 /* MOBILE RESPONSIVE DESIGN */
-/* ============================= */
-
-/* ============================= */
-/* MOBILE RESPONSIVE DESIGN */
-/* ============================= */
 
 @media (max-width: 991px) {
 
-    /* ===== NAVBAR ===== */
-
     .navbar {
         padding: 15px 5%;
-        flex-direction: row;      /* logo left, menu right */
+        flex-direction: row;     
         align-items: center;
         justify-content: space-between;
     }
 
     .navbar ul {
         display: flex;
-        flex-direction: row;      /* horizontal menu */
+        flex-direction: row;     
         justify-content: flex-end;
         align-items: center;
         gap: 15px;
-        flex-wrap: wrap;          /* wraps if screen is very small */
+        flex-wrap: wrap;          
     }
 
     .navbar ul li {
@@ -570,10 +562,9 @@ a {
     }
 
     .navbar ul li a {
-        font-size: 14px;          /* smaller text for mobile */
+        font-size: 14px;         
     }
 
-    /* ===== HOME SECTION ===== */
 
     .home {
         flex-direction: column-reverse;
@@ -617,6 +608,7 @@ a {
 
 
   
+
 
 
 
