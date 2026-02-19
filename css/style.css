@@ -546,13 +546,13 @@ a {
     /* ===== NAVBAR (KEEP HORIZONTAL) ===== */
     .navbar {
         padding: 15px 5%;
-        flex-direction: column;      /* keep horizontal */
+        flex-direction: flex;      /* keep horizontal */
         align-items: center;
     }
 
     .navbar ul {
         display: flex;
-        flex-direction: column;      /* keep horizontal */
+        flex-direction: flex;      /* keep horizontal */
         gap: 15px;
         margin-top: 0;
     }
@@ -602,6 +602,7 @@ a {
 
 
   
+
 
 
 
