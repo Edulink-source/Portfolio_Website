@@ -552,7 +552,7 @@ a {
 
     .navbar ul {
         display: flex;
-        flex-direction: row;      /* keep horizontal */
+        flex-direction: column;      /* keep horizontal */
         gap: 15px;
         margin-top: 0;
     }
@@ -602,6 +602,7 @@ a {
 
 
   
+
 
 
 
