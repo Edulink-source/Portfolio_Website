@@ -541,67 +541,65 @@ a {
 /* MOBILE RESPONSIVE DESIGN */
 /* ============================= */
 
+/* ============================= */
+/* MOBILE RESPONSIVE DESIGN */
+/* ============================= */
+
 @media (max-width: 991px) {
 
-    /* ===== NAVBAR (KEEP HORIZONTAL) ===== */
     .navbar {
-        padding: 15px 5%;
-        flex-direction: flex;      /* keep horizontal */
-        align-items: center;
+        padding: 20px 5%;
     }
 
     .navbar ul {
-        display: flex;
-        flex-direction: flex;      /* keep horizontal */
-        gap: 15px;
-        margin-top: 0;
+        display: none; /* hides menu on small screens */
     }
 
-    .navbar ul li {
-        margin: 0;
-    }
-
-    .navbar ul li a {
-        font-size: 14px;
-    }
-
-    /* ===== HOME SECTION ===== */
     .home {
         flex-direction: column-reverse;
         text-align: center;
         height: auto;
         padding: 120px 5% 50px;
-        gap: 30px;
     }
 
     .home-info h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .home-info h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .home-info p {
         font-size: 14px;
-        line-height: 1.6;
+    }
+
+    .home-info .btn-sci {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .home-info .btn-sci .sci {
+        margin: 10px 0 0;
     }
 
     .home-img .img-box {
-        width: 180px;
-        height: 180px;
-        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
     }
 
     .home-img .img-box::before,
     .home-img .img-box::after {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
     }
 }
 
 
+
   
+
 
 
 
