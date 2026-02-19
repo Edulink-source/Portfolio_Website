@@ -546,7 +546,7 @@ a {
     /* ===== NAVBAR (KEEP HORIZONTAL) ===== */
     .navbar {
         padding: 15px 5%;
-        flex-direction: row;      /* keep horizontal */
+        flex-direction: column;      /* keep horizontal */
         align-items: center;
     }
 
@@ -602,6 +602,7 @@ a {
 
 
   
+
 
 
 
